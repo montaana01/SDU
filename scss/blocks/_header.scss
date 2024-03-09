@@ -2,6 +2,7 @@
     width: 100%;
     min-height: 100px;
     border: 2px $yellow;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 49%, rgba(255,208,39,0.8758096988795518) 100%);
     padding: 15px 0;
 
     &__main {
