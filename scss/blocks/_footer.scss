@@ -1,0 +1,47 @@
+.footer {
+    padding: 20px 0 20px 0;
+    min-height: 100px;
+    background-color: rgba($color: #000000, $alpha: 1.0);
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__links {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+
+    }
+
+    &__descr {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        img {
+            height: 70px;
+        }
+    }
+
+    &__text {
+        width: 100px;
+        height: 70px;
+        color: $white;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    &__contacts {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    &__map {
+        img {
+            height: 60px;
+        }
+    }
+}
