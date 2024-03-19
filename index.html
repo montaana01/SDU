@@ -5,9 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>SDU</title>
+    <title>Строительное демонтажное управление</title>
     <link href="fonts" rel="stylesheet">
-    <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/style.min.css">
@@ -18,12 +24,39 @@
 
         <div class="container">
             <div class="header__main">
-                <img src="icon/logo_2.png" alt="SDU Logo">
-                <a href="tel:+375336687779">Выезжаем в любую точку Республики Беларусь</a>
-                <button class="button">Позвонить</button>
+                <div class="header__main__logo">
+                    <a href="#" class="header__main__png"><img src="icon/logo.png" alt="SDU Logo"></a>
+                    <div class="header__main__text"><span>Строительное</span> <span>демонтажное</span>
+                        <span>управление</span>
+                    </div>
+                </div>
+
+                <div class="header__main__links">
+                    <div class="header__main__links__phone">
+                        <a href="tel:+375292971111">+375292971111</a>
+                        <a href="tel:+375295313502">+375295313502</a>
+                        <div class="button">Позвонить<a href="tel:+375292971111"></a>
+                        </div>
+                    </div>
+                    <nav>
+                        <ul class="header__main__links__anchors">
+                            <li><a href="#">Услуги &cir;</a>
+                                <ul>
+                                    <li><a href="#">Аренда</a></li>
+                                    <li><a href="#">Демонтаж</a></li>
+                                    <li><a href="#">Переработка стройматериалов</a></li>
+                                    <li><a href="#">Насыпные материалы</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Контакты</a></li>
+                            <li><a href="#">О нас</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </div>
     </header>
+
     <section class="mainScreen">
         <div class="black"></div>
         <div class="container">
@@ -34,6 +67,7 @@
             </div>
         </div>
     </section>
+
     <section class="aboutUs">
         <div class="container">
             <h2 class="title"> Почему нужно выбрать именно нас?</h2>
@@ -44,6 +78,7 @@
             </div>
         </div>
     </section>
+
     <footer class="footer">
         <div class="container">
             <div class="footer__wrapper">
