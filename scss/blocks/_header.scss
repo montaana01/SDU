@@ -1,8 +1,7 @@
 .header {
     width: 100%;
-    min-height: 80px;
+    min-height: 70px;
     padding-top: 5px;
-    box-shadow: 0 5px 10px $white;
     &__main {
         position: relative;
         display: flex;
@@ -98,7 +97,10 @@
                 text-align: center;
                 li{
                     position: relative;
+                    display: block;
                     list-style-type: none;
+                    padding-bottom: 5px;
+
                     a:hover{
                         display: block;
                         color: $yellow;
@@ -114,7 +116,7 @@
         }
         nav ul li ul{
             position: absolute;
-            top: 30px;
+            top: 35px;
             left: 0;
             width: 300px;
             background: $white;
@@ -126,7 +128,8 @@
         nav ul li ul li{
             font-size: 20px;
             width: 100%;
-            border: 1px solid rgba($black, .1);
+            border-top: 1px solid rgba($black, .1);
+            border-left: 3px solid $white;
             a{
                 display: block;
             }
