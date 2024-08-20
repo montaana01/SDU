@@ -1,7 +1,7 @@
-.mainScreen {
+.main_screen {
     position: relative;
     min-height: 730px;
-    background: url(../img/bg/mainScreen.jpg) center (center/cover) no-repeat;
+    background: url(/img/bg/main_screen.jpg) center (center/cover) no-repeat;
     padding-top: 100px;
     z-index: 2;
 
@@ -40,7 +40,7 @@
     }
 }
 
-/* .mainScreen::before{
+/* .main_screen::before{
     content: '';
     display: block;
     width: 100vh;
