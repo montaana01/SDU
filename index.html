@@ -20,7 +20,6 @@
 
 <body>
     <header class="header">
-
         <div class="container">
             <div class="header__main">
                 <div class="header__main__logo">
@@ -52,9 +51,38 @@
                         </ul>
                     </nav>
                 </div>
+                <div class="header__main__hamburger">
+                    <div class="header__main__hamburger__wrapper">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
+    <aside class="header__main__aside">
+        <div class="header__main__aside__links__phone">
+            <a href="tel:+375292971111">+375292971111</a>
+            <a href="tel:+375295313502">+375295313502</a>
+            <div class="button">Позвонить<a href="tel:+375292971111"></a>
+            </div>
+        </div>
+        <nav>
+            <ul class="header__main__aside__links__anchors">
+                <li><a href="#">Услуги &cir;</a>
+                    <ul>
+                        <li><a href="#">Аренда</a></li>
+                        <li><a href="#">Демонтаж</a></li>
+                        <li><a href="#">Переработка стройматериалов</a></li>
+                        <li><a href="#">Насыпные материалы</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Контакты</a></li>
+                <li><a href="#">О нас</a></li>
+            </ul>
+        </nav>
+    </aside>
 
     <section class="main_screen">
         <div class="black"></div>
@@ -67,6 +95,22 @@
         </div>
     </section>
 
+    <section class="carousel">
+        <!-- Карусель -->
+        <div class="carousel">
+            <div class="container">
+                <img id="carouselImage" src="" alt="Service Image">
+                <h3 id="carouselTitle">Заголовок</h3>
+                <p id="carouselDescription">Описание</p>
+                <div class="price" id="carouselPrice">Цена: 0 руб.</div>
+                <div class="date" id="carouselDate">Дата: 01.01.2024</div>
+                <div class="controls">
+                    <button id="prevButton" onclick="prevSlide()">Назад</button>
+                    <button id="nextButton" onclick="nextSlide()">Вперед</button>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="about_us">
         <div class="container">
             <h2 class="title"> Почему нужно выбрать именно нас?</h2>
@@ -78,6 +122,24 @@
         </div>
     </section>
 
+    <section class="table">
+        <!-- Таблица -->
+        <div class="container">
+            <table id="servicesTable">
+                <thead>
+                <tr>
+                    <th>Название</th>
+                    <th>Описание</th>
+                    <th>Цена</th>
+                    <th>Дата создания</th>
+                </tr>
+                </thead>
+                <tbody>
+                <!-- Данные будут загружены динамически -->
+                </tbody>
+            </table>
+        </div>
+    </section>
     <footer class="footer">
         <div class="container">
             <div class="footer__wrapper">
@@ -98,10 +160,9 @@
                     <img src="img/map.png" alt="location">
                 </div> -->
             </div>
-
-        </div>
         </div>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

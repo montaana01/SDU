@@ -1,0 +1,170 @@
+/* Адаптивность */
+@media (max-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+
+  .main_screen{
+    h1 {
+      font-size: 60px;
+      line-height: 60px;
+    }
+    &__descr {
+    font-size: 35px;
+    line-height: 35px;
+    }
+  }
+
+  #carouselTitle {
+    font-size: 22px;
+  }
+
+  #carouselDescription {
+    font-size: 16px;
+  }
+
+  .price, .date {
+    font-size: 14px;
+  }
+
+  .controls button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  th, td {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 720px;
+  }
+
+
+
+  .main_screen{
+    h1 {
+      font-size: 50px;
+      line-height: 50px;
+    }
+    &__descr {
+    font-size: 30px;
+    line-height: 30px;
+    }
+  }
+
+  #carouselTitle {
+    font-size: 20px;
+  }
+
+  #carouselDescription {
+    font-size: 14px;
+  }
+
+  .price, .date {
+    font-size: 12px;
+  }
+
+  .controls button {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+
+  th, td {
+    padding: 8px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 540px;
+    padding: 10px;
+  }
+  .header__main{
+    &__links{
+      display: none;
+    }
+    &__hamburger{
+      display: block;
+    }
+  }
+
+  .main_screen{
+    h1 {
+      width: unset;
+      font-size: 40px;
+      line-height: 40px;
+    }
+    &__descr {
+      font-size: 24px;
+      line-height: 24px;
+    }
+  }
+
+  #carouselTitle {
+    font-size: 18px;
+  }
+
+  #carouselDescription {
+    font-size: 14px;
+  }
+
+  .price, .date {
+    font-size: 12px;
+  }
+
+  .controls button {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+
+  th, td {
+    padding: 8px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .main_screen{
+    h1 {
+    font-size: 30px;
+    line-height: 30px;
+    }
+    &__descr {
+      font-size: 20px;
+      line-height: 20px;
+    }
+
+  }
+
+  #carouselTitle {
+    font-size: 16px;
+  }
+
+  #carouselDescription {
+    font-size: 12px;
+  }
+
+  .price, .date {
+    font-size: 10px;
+  }
+
+  .controls button {
+    padding: 5px 10px;
+    font-size: 10px;
+  }
+
+  th, td {
+    padding: 6px;
+    font-size: 10px;
+  }
+}

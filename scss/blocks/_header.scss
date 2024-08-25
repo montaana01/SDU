@@ -47,7 +47,25 @@
                 letter-spacing: 3.3px;
             }
         }
-
+        &__hamburger{
+            display: none;
+            cursor: pointer;
+            &__wrapper{
+                height: 22px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-content: center;
+                span{
+                    width: 33px;
+                    height: 3px;
+                    background: $black;
+                }
+            }
+        }
+        &__aside{
+            display: none;
+        }
         &__links{
             height: 70px;
             display: flex;
